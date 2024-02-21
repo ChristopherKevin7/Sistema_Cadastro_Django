@@ -4,3 +4,5 @@ class Usuario(models.Model):
     id_usuario = models.AutoField(primary_key=True)
     nome = models.TextField()
     idade = models.IntegerField()
+    email = models.EmailField(default="")
+    telefone = models.TextField(default="")

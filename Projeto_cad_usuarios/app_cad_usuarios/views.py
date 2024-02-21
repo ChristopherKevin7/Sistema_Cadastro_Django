@@ -9,6 +9,8 @@ def usuarios(request):
     novo_usuario = Usuario()
     novo_usuario.nome = request.POST.get('nome')
     novo_usuario.idade = request.POST.get('idade')
+    novo_usuario.email = request.POST.get('email')
+    novo_usuario.telefone = request.POST.get('telefone')
     novo_usuario.save()
     
     #Exibir todos os usuarios já cadastrados em uma nova pagina
