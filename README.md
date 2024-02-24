@@ -41,7 +41,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 # **Autor**
 Christopher Kevin Costa - christopherkevin78@gmmail.com
 
-# **Licença**
-Este projeto está licenciado sob a [Licença XYZ] - veja o arquivo LICENSE.md para mais detalhes.
-
 Por favor, revise e personalize conforme necessário. Se precisar de mais alguma coisa ou quiser incluir mais detalhes, é só me avisar!
