@@ -9,6 +9,7 @@
                 <th>idade</th>
                 <th>email</th>
                 <th>telefone</th>
+                <th></th>
             </tr>
             {% for usuario in usuarios %}
             <tr>
@@ -17,6 +18,16 @@
                 <td>{{usuario.idade}}</td>
                 <td>{{usuario.email}}</td>
                 <td>{{usuario.telefone}}</td>
+                <td>
+                    <form action="{% url 'editar' usuario.id_usuario %}">
+                        {% csrf_token %}
+                        <button type="submit">Editar</button>
+                    </form>  
+                    <form onsubmit="return confirm('Tem certeza que deseja excluir este usuário?');" action="{% url 'excluir_item' usuario.id_usuario %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit">Excluir</button>
+                    </form>                    
+                </td>
             </tr>
             {% endfor %}
         </table>
