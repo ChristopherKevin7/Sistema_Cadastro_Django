@@ -1,4 +1,4 @@
-#**Sistema de Cadastro com Django**
+# **Sistema de Cadastro com Django** <br>
 Este é um sistema de cadastro desenvolvido utilizando Django, uma framework em Python para desenvolvimento web. O sistema segue o conceito CRUD (Create, Read, Update, Delete) para gerenciar informações de usuários.
 
 #**Funcionalidades**
