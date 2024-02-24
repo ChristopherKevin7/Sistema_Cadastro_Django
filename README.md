@@ -2,14 +2,14 @@
 Este é um sistema de cadastro desenvolvido utilizando Django, uma framework em Python para desenvolvimento web. O sistema segue o conceito CRUD (Create, Read, Update, Delete) para gerenciar informações de usuários.
 
 # **Funcionalidades**
-*Create: Permite adicionar novos usuários ao sistema.
-*Read: Lista todos os usuários cadastrados.
-*Update: Permite editar as informações de um usuário existente.
-*Delete: Permite excluir um usuário do sistema.
+*Create: Permite adicionar novos usuários ao sistema.<br>
+*Read: Lista todos os usuários cadastrados.<br>
+*Update: Permite editar as informações de um usuário existente.<br>
+*Delete: Permite excluir um usuário do sistema.<br>
 
 # **Tecnologias Utilizadas**
-*Django
-*Bootstrap
+* Django
+* Bootstrap
 
 # **Como Utilizar**
 *Clone este repositório para o seu ambiente local.
